@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editkaro.in Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video autoplay muted loop id="bgVideo" class="background-video">
+    <source src="your-background-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <header>
+    <h1>Editkaro.in Portfolio</h1>
+    <nav>
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="short">Short-form</button>
+      <button class="filter-btn" data-filter="long">Long-form</button>
+      <button class="filter-btn" data-filter="gaming">Gaming</button>
+      <button class="filter-btn" data-filter="football">Football</button>
+      <button class="filter-btn" data-filter="ecommerce">eCommerce Ads</button>
+      <button class="filter-btn" data-filter="ads">Ads</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="portfolio" class="grid">
+      <div class="card short" data-category="short">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/5O0YDHiosD0" title="Short-form Edit" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-info">
+          <h2>Short-form Video</h2>
+          <p>Quick, catchy edits for Instagram Reels and TikTok.</p>
+        </div>
+      </div>
+
+      <div class="card long" data-category="long">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/FdE5G95B7Mg" title="Long-form Edit" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-info">
+          <h2>Long-form Video</h2>
+          <p>YouTube content with expert storytelling and smooth transitions.</p>
+        </div>
+      </div>
+
+      <div class="card gaming" data-category="gaming">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/i9_jAo0DOK0" title="Gaming Montage" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-info">
+          <h2>Gaming Video</h2>
+          <p>Creative montages with smooth, dynamic edits.</p>
+        </div>
+      </div>
+
+      <div class="card football" data-category="football">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/7yLxxyzGiko" title="Football Edit" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-info">
+          <h2>Football Edit</h2>
+          <p>Dynamic replays, slow-motion, and impactful highlights.</p>
+        </div>
+      </div>
+
+      <div class="card ecommerce" data-category="ecommerce">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/E7wJTI-1dvQ" title="eCommerce Ad" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-info">
+          <h2>eCommerce Ad</h2>
+          <p>Product ad edits designed to boost conversions.</p>
+        </div>
+      </div>
+
+      <div class="card ads" data-category="ads">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/2Xc9gXyf2G4" title="Ad Campaign" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-info">
+          <h2>Ad Campaign</h2>
+          <p>High-impact ad campaigns for brands and startups.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Editkaro.in | Crafted with creativity and precision.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
